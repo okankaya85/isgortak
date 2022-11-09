@@ -52,7 +52,10 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" style="color:azure" href="~/">ISG LOGO</a>
+                   <asp:HyperLink CssClass="navbar-brand" AutoPostBack="true" ID="HyperLink1" style="color:black; margin-top:-9px;" runat="server" NavigateUrl="~/Default.aspx">
+                    <asp:Image ID="Image1"  CssClass="logo" runat="server" Height="38px" Width="38px" ImageUrl="~/img/isg1.png" /></asp:HyperLink><br />
+                    <asp:HyperLink ID="uyelogo"   runat="server"  Visible="false"><asp:Image ID="Image2"  CssClass="logo"  runat="server" Height="38px" Width="38px"  ImageUrl="~/img/uyelogo.png" /></asp:HyperLink>
+                   
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
