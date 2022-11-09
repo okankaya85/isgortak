@@ -21,6 +21,33 @@
             font-size:large;
         }
     </style>
+    <link rel="stylesheet" href="Content/swiper-bundle.min.css" />
+<script src="https://cdn.rawgit.com/rainabba/jquery-table2excel/1.1.0/dist/jquery.table2excel.min.js"></script>
+    <link rel="stylesheet" href="ara.css" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.js" integrity="sha512-V1mUBtsuFY9SNr+ptlCQAlPkhsH0RGLcazvOCFt415od2Bf9/YkdjXxZCdhrP/TVYsPeAWuHa+KYLbjNbeEnWg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    
+<script src="js/modernizr.js"></script>
+    
+    <script>
+        $(function () {
+
+            $('#carousel-example-generic').carousel({
+                interval: 3000,
+                keyword: false,
+                pause: true,
+                wrap: true,
+                autoplay: true,
+                arrows: true,
+
+            });
+        });
+
+    </script>
+<script src="js/jquery.flexslider.js"></script>
+    <script src="Scripts/jquery.table2excel.js"></script>
 </head>
 <body style="background-color:#f1e4e4">
     <form runat="server">
